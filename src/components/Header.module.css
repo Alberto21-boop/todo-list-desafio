@@ -1,0 +1,17 @@
+.header {
+  background: var(--gray-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1536px;
+  height: 200px;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header div img:first-child {
+  margin-right: 12px;
+}

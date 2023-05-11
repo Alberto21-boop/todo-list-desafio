@@ -1,0 +1,113 @@
+body {
+  background: var(--gray-600);
+  width: 1536px;
+  height: 1000px;
+}
+
+.superiorElements {
+  display: flex;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+}
+
+form {
+  width: 638px;
+  height: 54px;
+  border-radius: 10px;
+  border: none;
+}
+
+textarea {
+  width: 638px;
+  height: 54px;
+  border-radius: 10px;
+  background: var(--gray-500);
+  color: var(--gray-300);
+  border: none;
+  resize: none;
+  padding: 8px;
+  line-height: 1.4;
+}
+
+button[type="submit"] {
+  width: 90px;
+  height: 54px;
+  border-radius: 10px;
+  background: var(--blue-dark);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.paragraph {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 149px;
+}
+
+.firstNumber {
+  color: var(--white);
+  margin-left: -490px;
+  width: 25px;
+  height: 19px;
+  background: var(--gray-400);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.secondNumber {
+  color: var(--white);
+  margin-left: -490px;
+  width: 25px;
+  height: 19px;
+  background: var(--gray-400);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.firstText {
+  color: var(--alice-blue);
+}
+
+.secondText {
+  color: var(--purple);
+}
+
+.footerElements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  margin: -80px 400px;
+  border-color: var(--gray-700);
+}
+
+.clipboardFooter {
+  width: 56px;
+  height: 56px;
+  margin-top: 150px;
+  margin-bottom: 15px;
+}
+
+.footerElements strong {
+  color: var(--gray-300);
+  font-size: 16px;
+}
+
+.footerElements p {
+  color: var(--gray-300);
+  font-size: 16;
+}
