@@ -8,19 +8,19 @@ interface Task {
   task: string;
 }
 
-interface BodyProps {
-  task: string;
-}
+// interface BodyProps {
+//   task: string;
+// }
 
-export function Body({ task }: BodyProps) {
+export function Body() {
   const [newTask, setNewTask] = useState<Task[]>([]);
 
   const [newTaskComment, setNewTaskComment] = useState("");
 
   function handleCreateNewTask(event: FormEvent) {
     event.preventDefault();
-
-    setNewTask([...newTask, newTaskComment]);
+    const task: Task = { task: newTaskComment };
+    setNewTask([...newTask, task]);
     setNewTaskComment("");
 
     console.log(newTask);
